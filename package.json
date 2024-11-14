@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:staged": "lint-staged",
-    "prettier": "prettier --check --log-level silent \"src/**/(*.tsx|*.ts|*.css|*.scss)\" \"stories/**/(*.tsx|*.ts)\"",
-    "format": "prettier --write --log-level silent \"src/**/(*.tsx|*.ts|*.css|*.scss)\" \"stories/**/(*.tsx|*.ts)\"",
+    "prettier": "prettier --check --log-level silent \"src/**/(*.tsx|*.ts|*.css|*.scss)\"",
+    "format": "prettier --write --log-level silent \"src/**/(*.tsx|*.ts|*.css|*.scss)\"",
     "prepare": "husky install"
   },
   "dependencies": {
