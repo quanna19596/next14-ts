@@ -10,10 +10,9 @@ export const metadata: Metadata = {
   title: 'App Page'
 };
 
-const AppPage: React.FC<TAppPage> = async () => {
+const AppPage: React.FC<TAppPage> = () => {
   return (
     <div className='AppPage'>
-      AppPage
       <Button />
     </div>
   );
