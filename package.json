@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint --fix",
     "lint:staged": "lint-staged",
     "prettier": "prettier --check --log-level silent \"src/**/(*.tsx|*.ts|*.css|*.scss)\"",
     "format": "prettier --write --log-level silent \"src/**/(*.tsx|*.ts|*.css|*.scss)\"",
